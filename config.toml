@@ -1,0 +1,26 @@
+baseURL = "https://liuhang.net.cn/"
+languageCode = "zh-CN"
+title = "刘航"
+theme = "maupassant"
+[author]
+	name = "刘航"
+
+googleAnalytics = "UA-128040597-1"
+
+[params]
+	author = "刘航"
+	subtitle = "update weekly"
+	keywords = "golang,python,network,服务端,架构,算法"
+	description = "服务端学习"
+[menu]
+	[[menu.main]]
+		identifier = "archives"
+    	name = "归档"
+    	url = "/archives/"
+    	weight = 2
+	[[menu.main]]
+		identifier = "about"
+		name = "关于"
+		url = "/about/"
+		weight = 3
+
